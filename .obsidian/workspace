@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "翻译工具.md",
+            "file": "文档.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "翻译工具.md",
+            "file": "文档.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "翻译工具.md",
+            "file": "文档.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -106,7 +106,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "翻译工具.md"
+            "file": "文档.md"
           }
         }
       }
@@ -116,8 +116,13 @@
   "active": "a94a8fd1ed5594aa",
   "lastOpenFiles": [
     "Idris2.md",
+    "JavaScript.md",
     "README.md",
     "Obsidian.md",
+    "ECMAScript.md",
+    "TypeScript.md",
+    "Nodejs.md",
+    "翻译工具.md",
     "非线性阅读.md",
     "数字花园.md"
   ]

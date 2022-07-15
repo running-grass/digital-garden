@@ -1,0 +1,1 @@
+是[[JavaScript]]的超级，同时继承并大量扩展了[[ECMAScript]]规范。静态类型语言，可编译为[[JavaScript]]
