@@ -1,0 +1,14 @@
+{
+  "githubRepo": "grass-digital-garden",
+  "githubToken": "ghp_zWRR097Nd0De7MQoCo6Vqs0bplvqr06iPXZ",
+  "githubUserName": "running-grass",
+  "gardenBaseUrl": "",
+  "prHistory": [],
+  "theme": "dark",
+  "baseTheme": "{\"name\": \"default\", \"modes\": [\"dark\"]}",
+  "faviconPath": "",
+  "defaultNoteSettings": {
+    "dgHomeLink": true,
+    "dgPassFrontmatter": false
+  }
+}
