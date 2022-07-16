@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "数字花园.md",
+            "file": "翻译工具.md",
             "mode": "source",
             "backlinks": true,
             "source": false
@@ -78,7 +78,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "数字花园.md",
+            "file": "翻译工具.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "数字花园.md",
+            "file": "翻译工具.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -107,7 +107,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "数字花园.md"
+            "file": "翻译工具.md"
           }
         }
       }
@@ -116,15 +116,15 @@
   },
   "active": "a94a8fd1ed5594aa",
   "lastOpenFiles": [
-    "开发工具.md",
-    "数字花园.md",
-    "Idris2.md",
-    "文档.md",
-    "JavaScript.md",
     "README.md",
+    "翻译工具.md",
+    "文档.md",
+    "数字花园.md",
+    "开发工具.md",
+    "Idris2.md",
+    "JavaScript.md",
     "Obsidian.md",
     "ECMAScript.md",
-    "TypeScript.md",
-    "Nodejs.md"
+    "TypeScript.md"
   ]
 }
