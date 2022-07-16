@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Obsidian.md",
-            "mode": "source",
+            "file": "对子女教育问题的探讨.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian.md",
+                "file": "对子女教育问题的探讨.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian.md",
+                "file": "对子女教育问题的探讨.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian.md"
+                "file": "对子女教育问题的探讨.md"
               }
             }
           }
@@ -130,12 +130,12 @@
   },
   "active": "8feecdf2b8a8c2cb",
   "lastOpenFiles": [
+    "Obsidian.md",
     "数字花园.md",
     "非线性阅读.md",
     "开发工具.md",
     "README.md",
     "conflict-files-obsidian-git.md",
-    "Obsidian.md",
     "Idris2.md"
   ]
 }
