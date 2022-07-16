@@ -4,14 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "a94a8fd1ed5594aa",
+        "id": "8feecdf2b8a8c2cb",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "翻译工具.md",
+            "file": "Obsidian.md",
             "mode": "source",
-            "backlinks": true,
             "source": false
           }
         }
@@ -20,111 +19,123 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "beb7d711cede4776",
-    "type": "mobile-drawer",
+    "id": "a3f7c979b6caeadd",
+    "type": "split",
     "children": [
       {
-        "id": "d08d1cf30a693a57",
-        "type": "leaf",
-        "state": {
-          "type": "file-explorer",
-          "state": {}
-        }
-      },
-      {
-        "id": "821bbe108a49ed86",
-        "type": "leaf",
-        "state": {
-          "type": "search",
-          "state": {
-            "query": "",
-            "matchingCase": false,
-            "explainSearch": false,
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical"
+        "id": "0744a1d4b839e658",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "129e7624c594adbb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "e7bc2d66f5c5b5b2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d74cc95f1f999fc2",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
           }
-        }
-      },
-      {
-        "id": "b4cd54d5656b9dfe",
-        "type": "leaf",
-        "state": {
-          "type": "tag",
-          "state": {
-            "sortOrder": "frequency",
-            "useHierarchy": true
-          }
-        }
-      },
-      {
-        "id": "0238212ff4d58d94",
-        "type": "leaf",
-        "state": {
-          "type": "starred",
-          "state": {}
-        }
+        ]
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 300
   },
   "right": {
-    "id": "0af347c483299a46",
-    "type": "mobile-drawer",
+    "id": "79925eb1a704d4a7",
+    "type": "split",
     "children": [
       {
-        "id": "74d47cfef4bec310",
-        "type": "leaf",
-        "state": {
-          "type": "backlink",
-          "state": {
-            "file": "翻译工具.md",
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical",
-            "showSearch": false,
-            "searchQuery": "",
-            "backlinkCollapsed": false,
-            "unlinkedCollapsed": true
+        "id": "e430ff5ffb6d8769",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1b4bd0b2388264d8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Obsidian.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2cc66c6c95077dca",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Obsidian.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a875deb15e615aa7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "9a93cc9939d42945",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Obsidian.md"
+              }
+            }
           }
-        }
-      },
-      {
-        "id": "342e0248d9541951",
-        "type": "leaf",
-        "state": {
-          "type": "outgoing-link",
-          "state": {
-            "file": "翻译工具.md",
-            "linksCollapsed": false,
-            "unlinkedCollapsed": true
-          }
-        }
-      },
-      {
-        "id": "71bd1d665fca5cca",
-        "type": "leaf",
-        "state": {
-          "type": "outline",
-          "state": {
-            "file": "翻译工具.md"
-          }
-        }
+        ]
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
   },
-  "active": "a94a8fd1ed5594aa",
+  "active": "8feecdf2b8a8c2cb",
   "lastOpenFiles": [
-    "README.md",
-    "翻译工具.md",
-    "文档.md",
     "数字花园.md",
+    "非线性阅读.md",
     "开发工具.md",
-    "Idris2.md",
-    "JavaScript.md",
+    "README.md",
+    "conflict-files-obsidian-git.md",
     "Obsidian.md",
-    "ECMAScript.md",
-    "TypeScript.md"
+    "Idris2.md"
   ]
 }

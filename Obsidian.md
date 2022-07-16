@@ -4,5 +4,5 @@
 
 
 # 相关链接
-- https://lucidhacker.substack.com/p/setting-up-git-syncing-for-obsidian 安卓+git使用Ob
-- 
+- [setting-up-git-syncing-for-obsidian](https://lucidhacker.substack.com/p/setting-up-git-syncing-for-obsidian) 安卓+git使用Ob
+-  [mindstone](https://mindstone.tuancao.me/note/__index) Obsidian的非官方的发布方案
