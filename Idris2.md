@@ -24,4 +24,3 @@ Idris是一个纯[[函数式]]的通用编程语言
 - https://github.com/joaomilho/awesome-idris awesome 列表
 - https://github.com/idris-hackers/idris-koans idris 教程
 - https://idris-zh.rtfd.io/ 中文idris1教程，进度60%左右，已弃坑
-- 
