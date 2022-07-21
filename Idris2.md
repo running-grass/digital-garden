@@ -1,8 +1,9 @@
-Idris是一个纯[[函数式]]的通用编程语言
+Idris是一个纯函数式的通用编程语言
 也可以简单的看作是[[Haskell]]的改良版
 
 可编译为[[JavaScript]]和[[Nodejs]]
 
+实现了[[定量类型系统]]
 
 # 安装使用
 1. mac可以使用homebrew 来安装idris 2
