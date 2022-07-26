@@ -1,10 +1,3 @@
-Webpack的原理
----------------------------
-
-Webpack的原理
-   :PROPERTIES:
-   :CUSTOM_ID: webpack的原理
-   :END:
 
 - [[Webpack]]是当下最流行[[前端构建工具]]
 - 核心概念
