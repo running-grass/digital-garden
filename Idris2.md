@@ -25,3 +25,5 @@ Idris是一个纯函数式的通用编程语言
 - https://github.com/joaomilho/awesome-idris awesome 列表
 - https://github.com/idris-hackers/idris-koans idris 教程
 - https://idris-zh.rtfd.io/ 中文idris1教程，进度60%左右，已弃坑
+- [Agda vs. Coq vs. Idris](https://whatisrt.github.io/dependent-types/2020/02/18/agda-vs-coq-vs-idris.html)  几个类haskell语言的对比
+- 
