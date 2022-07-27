@@ -7,6 +7,7 @@ Idris是一个纯函数式的通用编程语言
 
 # 安装使用
 1. mac可以使用homebrew 来安装idris 2
+2. 可以通过pack工具来安装
 
 # 工具链
 - https://github.com/stefan-hoeck/idris2-pack 软件安装工具
