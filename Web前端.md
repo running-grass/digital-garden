@@ -1,49 +1,34 @@
-Cookie的有效期
----------------------------
-
-Cookie的有效期
-   :PROPERTIES:
-   :CUSTOM_ID: cookie的有效期
-   :END:
-设置Cookie的生存期。有两种存储类型的Cookie：会话性与持久性。Expires属性缺省时，为会话性Cookie，仅保存在客户端内存中，并在用户关闭浏览器时失效。
-
-持久性Cookie会保存在用户的硬盘中，直至生存期到或用户直接在网页中单击"注销"等按钮结束会话时才会失效
-。
 
 
-CORS
----------------------------
 
-CORS
-   :PROPERTIES:
-   :CUSTOM_ID: cors
-   :END:
-CORS是一个[[W3C]]标准，全程是"跨域资源共享"(Cross-origin resource
+# CORS
+
+CORS是一个W3C标准，全程是"跨域资源共享"(Cross-origin resource
 sharing) *
 Access-Control-Allow-Origin：可接受的域，是一个具体域名或者*，代表任意
 
-它允许浏览器向跨源服务器发出[[XMLHttpRequest]]请求，从而克服了AJAX只能同源使用的限制 
+它允许浏览器向跨源服务器发出XMLHttpRequest请求，从而克服了AJAX只能同源使用的限制 
 #同源策略 + 如果是te'shu'qing的话 *
-会在正式通信之前，增加一次[[HTTP]]查询请求，称之为”预检“请求(preflight)
+会在正式通信之前，增加一次HTTP查询请求，称之为”预检“请求(preflight)
 
 浏览器先询问服务器，当前网页所在的域名是否在服务器的许可名单之内，以及可以使用那些HTTP动词和头信息字段，再行判断当前的域名、请求类型和头信息是否都在许可范围之内
-+ 当浏览器收到答复后， * 如果是的话，则正是发出[[XMLHttpRequest]]请求 *
++ 当浏览器收到答复后， * 如果是的话，则正是发出XMLHttpRequest请求 *
 否则报错
 
 Access-Control-Allow-Credentials：是否允许携带cookie，默认情况下，cors不会携带cookie，除非这个值是true
-+ 浏览器会把[[Ajax]]请求分为两类 + 简单请求 *
++ 浏览器会把Ajax请求分为两类 + 简单请求 *
 HEAD、GET、POSTsan'zhong'qing'qi + 头信息不超过以下几个字段 * Accept *
 Accept-Language * Content-Language * Last-Event-ID * ((uce-Content-Type))（
 
 te'shu'qing + 原理 +
-当浏览器发现[[Ajax]]请求是简单请求时，会在请求头携带一个字段=Origin= *
+当浏览器发现Ajax请求是简单请求时，会在请求头携带一个字段=Origin= *
 =Origin: http://grass.work:80= + 服务端会根据这个值是否允许其跨域 *
 如果服务器允许跨域，
 
 Content-Type：只限于三个值application/x-www-form-urlencoded、multipart/form-data、text/plain
-+ 如果想在跨域请求中操作[[Cookie]]，需要同时满足3个条件 *
++ 如果想在跨域请求中操作Cookie，需要同时满足3个条件 *
 服务器的响应头中=Access-Control-Allow-Origin=true= *
-浏览器发起[[Ajax]]时需要制定=withCredentials=true= *
+浏览器发起Ajax时需要制定=withCredentials=true= *
 响应头中的=Access-Control-Allow-Origin=不能为=*=，一定要为制定的域名
 
 
@@ -223,14 +208,7 @@ Access-Control-Request-Headers：会额外用到的头信息
 
 
 
-HTTP响应头信息
----------------------------
-
-HTTP响应头信息
-   :PROPERTIES:
-   :CUSTOM_ID: http响应头信息
-   :END:
-
+# HTTP响应头信息
 - Access-Control-Allow-Origin：可接受的域，是一个具体域名或者*，代表任意
 
 Access-Control-Allow-Credentials：是否允许携带cookie，默认情况下，cors不会携带cookie，除非这个值是true
@@ -239,6 +217,8 @@ Access-Control-Allow-Methods：允许访问的方式 *
 Access-Control-Allow-Headers：允许携带的头
 
 Access-Control-Max-Age：本次许可的有效时长，单位是秒，过期之前的ajax请求就无需再次进行预检了
+
+Content-Security-Policy:  可以设置的值，require-sri-for style; require-sri-for style;
 
 
 
@@ -644,21 +624,27 @@ SSG
 
 
 
+# Cookie
 
-
-# Cookie 安全相关的设置
-## HttpOnly
+## Cookie 安全相关的设置
+### HttpOnly
 阻止跨站攻击，如果设置为`true`，那么从客户端 （JS）就不能访问该cookie。
 
-## Secure
+### Secure
 如果设置了，就必须使用 https 访问
 
+## Cookie的有效期
+
+设置Cookie的生存期。有两种存储类型的Cookie：会话性与持久性。Expires属性缺省时，为会话性Cookie，仅保存在客户端内存中，并在用户关闭浏览器时失效。
+
+持久性Cookie会保存在用户的硬盘中，直至生存期到或用户直接在网页中单击"注销"等按钮结束会话时才会失效
+。
 
 
 # Subresource Integrity 子资源完整性
 通过设置 ```
 ``` 
-Content-Security-Policy: require-sri-for style; require-sri-for style;
+Content-Security-Policy: require-sri-for style; Content-Security-Policy: require-sri-for style;
 ```
 为 样式和脚本 都前置使用 哈希检查
 
