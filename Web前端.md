@@ -643,3 +643,8 @@ SSG
 [[https://www.cnblogs.com/buyz/p/10935831.html][11个最流行的静态(博客)网站生成工具]]
 
 
+
+
+
+# Cookie 安全相关的设置
+## HttpOnly
