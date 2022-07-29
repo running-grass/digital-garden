@@ -648,3 +648,6 @@ SSG
 
 # Cookie 安全相关的设置
 ## HttpOnly
+阻止跨站攻击，如果设置为`true`，那么从客户端 （JS）就不能访问该cookie。
+
+## Secure
