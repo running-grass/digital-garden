@@ -653,3 +653,6 @@ SSG
 ## Secure
 如果设置了，就必须使用 https 访问
 
+
+
+# Subresource Integrity 子资源完整性
