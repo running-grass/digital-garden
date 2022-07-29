@@ -656,3 +656,20 @@ SSG
 
 
 # Subresource Integrity 子资源完整性
+通过设置 ```
+``` 
+Content-Security-Policy: require-sri-for style; require-sri-for style;
+```
+为 样式和脚本 都前置使用 哈希检查
+
+在 `script` 和`link` 中增加 `integrity` 属性，值为 内容的sha1值
+
+可以使用以下两种工具进行hash
+```bash
+cat **FILENAME.js** | openssl dgst -sha384 -binary | openssl enc -base64 -A
+```
+或者
+```bash
+shasum -b -a 384 FILENAME.js | xxd -r -p | base64
+```
+
