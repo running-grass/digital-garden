@@ -11,8 +11,9 @@
 
 [type: text] ../README.md $lang:./README.md opt:"-k 1"
 ```
-其中 `type: $type` 写多个
+其中 `type: $type` 可以写多个
 
+一个 `po4a` 命令可以同时处理提取文字到pot，更新pot到po文件，更新po文件生成输出文件
 
 # 相关链接
 - [po4a cli 手册](https://man.archlinux.org/man/po4a.1p.zh_CHS)
