@@ -9,7 +9,7 @@
 [po4a_langs] zh_Hans
 [po4a_paths] pot/$master.pot $lang:po/$lang/$master.po
 
-[type: text] ../README.md $lang:./README.md opt:"-k 1"
+[type: text] ../README.md $lang:./README.md opt:"-k 1 -o markdown"
 ```
 其中 `type: $type` 可以写多个
 
