@@ -11,6 +11,8 @@
 
 [type: text] ../README.md $lang:./README.md opt:"-k 1 -o markdown"
 ```
+参考 [这个配置文件](https://github.com/running-grass/idris2-tutorial/blob/main/translation/po4a.cfg)
+
 其中 `type: $type` 可以写多个
 
 一个 `po4a` 命令可以同时处理提取文字到pot，更新pot到po文件，更新po文件生成输出文件

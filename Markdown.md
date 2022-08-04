@@ -6,11 +6,3 @@
 [Geek 编辑器](https://www.geekeditor.com/) 基于Markdown,可以导出多种格式，包括知乎
 
 # 词法分析 
-
-**abcd**3344**
-123
-345
-
-### *ab*
-
-12323123
