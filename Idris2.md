@@ -24,6 +24,8 @@ Idris是一个纯函数式的通用编程语言
 - https://github.com/kbertalan/tyttp http服务端，提供了一个nodejs的客户端
 - https://github.com/octeep/idris2-http 一个idris2的客户端
 - https://github.com/Russoul/Idris2-Effect
+# 杂项
+
 
 # 相关链接
 - https://github.com/stefan-hoeck/idris2-tutorial 英文教程
