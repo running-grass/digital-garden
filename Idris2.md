@@ -25,7 +25,7 @@ Idris是一个纯函数式的通用编程语言
 - https://github.com/octeep/idris2-http 一个idris2的客户端
 - https://github.com/Russoul/Idris2-Effect
 # 杂项
-
+调用命令行命令  System.run 
 
 # 相关链接
 - https://github.com/stefan-hoeck/idris2-tutorial 英文教程
