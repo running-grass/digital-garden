@@ -9,3 +9,14 @@
 1. [[PureScript]]  主要用于[[Nodejs]] 和 [[浏览器]]
 2. [[Idris2]] 第一版是基于[[Haskell]]编译，主要后端有[[JavaScript]]、c, scheme
 3. Elm 模仿[[Haskell]]语法的Web开发语言(框架)
+
+# 学习资源
+
+## 在线书籍
+
+* [Real World Haskell 中文版](http://cnhaskell.com/) - 真实世界中的Haskell
+* [Haskell趣学指南](https://flaneur2020.github.io/lyah/) - Haskell编程语言的入门指南
+
+## 文章
+
+* [如何安装 Haskell 工具链？](https://mirror.xyz/0xdB4907968b599f0fb530693eF457BdE801544031/sG9PAIIVhL7urJNSze_xnjg409QYGZFgvmnqxUriuOk) - 从零开始一步步安装 Haskell 工具链（编译器、构建工具、编辑器）
