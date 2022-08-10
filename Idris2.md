@@ -16,6 +16,17 @@ Idris是一个纯函数式的通用编程语言
 2. 
 
 
+# 函数
+## 命名参数
+类型声明中可以为参数命名，命名后可以使用按名称传参数调用，包括记录语法
+
+`fromMaybe { deflt = False }`
+
+或者对于记录
+`MkDragon { strength = 150, name = "Gorgar", hitPoints = 10000 }`
+
+
+
 
 # 工具链
 - https://github.com/stefan-hoeck/idris2-pack 软件安装工具
