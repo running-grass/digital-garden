@@ -49,3 +49,4 @@ Idris是一个纯函数式的通用编程语言
 - https://idris-zh.rtfd.io/ 中文idris1教程，进度60%左右，已弃坑
 - [Agda vs. Coq vs. Idris](https://whatisrt.github.io/dependent-types/2020/02/18/agda-vs-coq-vs-idris.html)  几个类haskell语言的对比
 - [Idris2 Documentation Browser](https://idris2docs.sinyax.net/) 便于搜索Idris2 的文档
+- [quickdocs](https://idris2-quickdocs.surge.sh/) 更全的一个关于Idris2 的文档，基于pack-db进行聚合
