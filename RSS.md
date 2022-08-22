@@ -6,5 +6,7 @@
 # RSS工具
 - [RSS Hub](https://docs.rsshub.app/) 易于扩展的 RSS 生成器 #开源 #自托管 
 
-
-[中文独立博客列表](https://feeds.pub/cn-indie)
+# 资源列表
+- [中文独立博客列表](https://feeds.pub/cn-indie)
+- [中文博客导航站](https://zhblogs.ohyee.cc/?)
+- 
