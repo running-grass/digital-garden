@@ -28,4 +28,7 @@
 # 相关资源
 - [learn-haskell-blog-generator](https://lhbg-book.link/) 通过博客生成器来学习 Haskell
 - [Haskell learn plan](https://github.com/soupi/haskell-study-plan#about-this-guide) 一份学习资源列表
+
+# 相关博客列表
+- [Marko Dimjašević](https://dimjasevic.net/marko/)
 - 
