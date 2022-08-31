@@ -10,3 +10,10 @@ nix-channel --update
 ```ini
 substituters = https://mirrors.ustc.edu.cn/nix-channels/store https://cache.nixos.org/
 ```
+
+
+# Nixos 安装使用
+## 下载镜像
+https://nixos.org/download.html#nixos-iso
+## 拷贝到USB
+https://nixos.org/manual/nixos/stable/index.html#sec-booting-from-usb
