@@ -22,4 +22,7 @@ https://nixos.org/manual/nixos/stable/index.html#sec-booting-from-usb
 - [保姆级教你轻松掌握NixOS](https://www.lanta.cyou/2022/05/06/nixos-guide-cn/) 中文的安装教程
 - [关于 Nix/NixOS 的核心概念介绍](https://zhuanlan.zhihu.com/p/523517998)
 - [NIX FLAKES, Part 1: An introduction and tutorial](https://www.tweag.io/blog/2020-05-25-flakes) 介绍了为什么flakes 有帮助
-- [一穗灯花的博客](https://milena-blog.vercel.app/categories/NixOS/)
+- [灯花小屋](https://milena-blog.vercel.app/categories/NixOS/) 多篇nixos相关的博文
+- [Anillc 的博客](https://anillc.cn/) 
+- [Lan Tian 博客](https://lantian.pub/)
+- 
