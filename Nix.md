@@ -17,3 +17,7 @@ substituters = https://mirrors.ustc.edu.cn/nix-channels/store https://cache.nixo
 https://nixos.org/download.html#nixos-iso
 ## 拷贝到USB
 https://nixos.org/manual/nixos/stable/index.html#sec-booting-from-usb
+
+#  文章
+- [保姆级教你轻松掌握NixOS](https://www.lanta.cyou/2022/05/06/nixos-guide-cn/) 中文的安装教程
+- 
