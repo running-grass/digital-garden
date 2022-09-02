@@ -620,3 +620,7 @@ cat **FILENAME.js** | openssl dgst -sha384 -binary | openssl enc -base64 -A
 shasum -b -a 384 FILENAME.js | xxd -r -p | base64
 ```
 
+
+
+# bugs
+1. div之间出现间隙，可能会是 font-size: 0的问题
