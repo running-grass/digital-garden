@@ -85,7 +85,7 @@ hugo -D
 
 #### 建立一个page仓库 {#建立一个page仓库}
 
-在github上面创建一个<username>.github.io的公开仓库
+在github上面创建一个`<username>.github.io`的公开仓库
 例如我的仓库名称是running-grass/running-grass.github.io
 
 
@@ -100,7 +100,7 @@ git submodule add -b master https://github.com/<USERNAME>/<USERNAME>.github.io.g
 
 #### 设置baseURL {#设置baseurl}
 
-把config文件中的baseURL设置为<username>.github.io
+把config文件中的baseURL设置为`<username>.github.io`
 
 
 #### 部署脚本 {#部署脚本}
