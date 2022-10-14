@@ -1,12 +1,9 @@
-+++
-title = "孤独"
-date = 2018-09-26T00:00:00+08:00
-lastmod = 2020-12-07T22:40:01+08:00
-draft = false
-toc = false
-+++
+---
+title: 孤独
+date: 2018-09-26
+---
 
-{{< figure src="https://grass.show/blog-pic/img/20201207223054.png" >}}
+![](https://grass.show/blog-pic/img/20201207223054.png)
 
 在地铁的车厢里面
 
