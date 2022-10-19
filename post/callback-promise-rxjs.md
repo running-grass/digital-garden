@@ -1,17 +1,18 @@
-+++
-title = "异步——从Callback到Promise再到Rxjs"
-date = 2017-08-31T00:00:00+08:00
-lastmod = 2020-12-07T22:39:56+08:00
-draft = false
-aliases = ["/post/08/31/2017-08-31-callback-promise-rxjs/"]
-+++
+---
+title: 异步——从Callback到Promise再到Rxjs 
+date: 2017-08-31
+aliases: ["/post/08/31/2017-08-31-callback-promise-rxjs/"]
+tags: [javascript, 异步]
+updated: 2022-10-15
+---
+
 
 异步编程从以前的晦涩难懂，到现在的简单明了，从以前的功能单一，到现在的功能强大。
 
 <!--more-->
 
 
-## Callback {#callback}
+# Callback
 
 在远古时代，人们为了实现异步编程，通常采用callback的形式，定义好一个回调函数，在需要异步请求的地方，注册回调函数，等异常请求返回后，把数据传入回调函数，对异步请求的结果进行处理。
 
@@ -49,7 +50,7 @@ log('hello')
 这样的代码不利于阅读，也不利于维护，接下来出现的是Promise，一个很重要的类型
 
 
-## Promise {#promise}
+# Promise
 
 Promise 是代表一个承诺，它可以承诺在一定的时间内，他会完成他的事件或者抛出错误。
 换句话说，它刚生成时，他的状态是不确定的，在一定时间后，他的状态肯定会确定下来，同时只有两种情况，一种是顺利完成，一种是出错异常。在编写代码过程中只需要监听这两个状态就可以对其结果进行处理，通过链式调用的方式可以使代码更加易读。
@@ -125,7 +126,7 @@ run();
 于是响应式编程应时而生。
 
 
-## Rxjs {#rxjs}
+# Rxjs
 
 Rxjs并不等于响应式编程，它只是RP(Reactive Programming)的一个类库实现，但是因为它在几乎所有主流语言上都有实现，所有rx算是rp中的中坚力量了吧。
 

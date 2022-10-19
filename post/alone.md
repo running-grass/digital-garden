@@ -1,6 +1,8 @@
 ---
 title: 孤独
 date: 2018-09-26
+tags: [诗歌]
+updated: 2022-10-15
 ---
 
 ![](https://grass.show/blog-pic/img/20201207223054.png)

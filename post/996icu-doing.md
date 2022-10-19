@@ -1,6 +1,8 @@
 ---
 title: 996ICU大事件——持续发酵中
 date: 2019-03-29
+tags: [时事]
+updated: 2022-10-15
 ---
 
 ![](https://grass.show/blog-pic/640.png)
