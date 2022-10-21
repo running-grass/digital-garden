@@ -27,6 +27,15 @@ https://nixos.org/manual/nixos/stable/index.html#sec-booting-from-usb
 - [Lan Tian 博客](https://lantian.pub/)
 
 # 移动/nix目录到非系统盘
+## 参考资料
+https://nixos.wiki/wiki/Storage_optimization
+
 ## 增加分区
 1. 使用 partd /dev/sdx 来进入交互模式，增加一个分区用于nix 目录
-2. 使用 e2label 
+2. 使用 e2label 增加label
+
+## 备份目录
+
+## 设置自动挂载
+
+## 删除旧的目录
