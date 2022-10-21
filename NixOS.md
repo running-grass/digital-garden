@@ -29,4 +29,4 @@ https://nixos.org/manual/nixos/stable/index.html#sec-booting-from-usb
 # 移动/nix目录到非系统盘
 ## 增加分区
 1. 使用 partd /dev/sdx 来进入交互模式，增加一个分区用于nix 目录
-2. 
+2. 使用 e2label 
