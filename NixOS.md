@@ -25,4 +25,8 @@ https://nixos.org/manual/nixos/stable/index.html#sec-booting-from-usb
 - [灯花小屋](https://milena-blog.vercel.app/categories/NixOS/) 多篇nixos相关的博文
 - [Anillc 的博客](https://anillc.cn/) 
 - [Lan Tian 博客](https://lantian.pub/)
-- 
+
+# 移动/nix目录到非系统盘
+## 增加分区
+1. 使用 partd /dev/sdx 来进入交互模式，增加一个分区用于nix 目录
+2. 
