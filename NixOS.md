@@ -39,3 +39,6 @@ https://nixos.wiki/wiki/Storage_optimization
 ## 设置自动挂载
 
 ## 删除旧的目录
+
+# 安装使用clash
+使用 `nix-env -iA nixos.clash`  安装软件
