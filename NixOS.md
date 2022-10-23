@@ -41,4 +41,7 @@ https://nixos.wiki/wiki/Storage_optimization
 ## 删除旧的目录
 
 # 安装使用clash
-使用 `nix-env -iA nixos.clash`  安装软件
+- 在nixos上面使用 `nix-env -iA nixos.clash`  安装软件
+- 在macos上找到配置文件夹，把配置 config.yaml 上传到nixos上面
+- 在nixos上建立文件夹，/etc/clash/ 
+- 把config.yaml 放入到 /etc/clash 中。
