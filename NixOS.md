@@ -45,3 +45,5 @@ https://nixos.wiki/wiki/Storage_optimization
 - 在macos上找到配置文件夹，把配置 config.yaml 上传到nixos上面
 - 在nixos上建立文件夹，/etc/clash/ 
 - 把config.yaml 放入到 /etc/clash 中。
+- 重启服务
+- 如果需要 使用 局域网ip 来代理，需要把config.yaml 中的allow-lan设置为true
