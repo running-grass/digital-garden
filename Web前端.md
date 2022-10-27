@@ -32,13 +32,7 @@ Content-Type：只限于三个值application/x-www-form-urlencoded、multipart/f
 响应头中的=Access-Control-Allow-Origin=不能为=*=，一定要为制定的域名
 
 
-DOM的回流和重绘
----------------------------
-
-DOM的回流和重绘
-   :PROPERTIES:
-   :CUSTOM_ID: dom的回流和重绘
-   :END:
+# DOM的回流和重绘
 
 - 页面呈现过程
 
@@ -55,13 +49,7 @@ tree或render tree * 当样式发生改变的话，会直接更新render tree，
 * vdom可以减少回流和重绘的次数
 
 
-前端工程化
----------------------------
-
-前端工程化
-   :PROPERTIES:
-   :CUSTOM_ID: 前端工程化
-   :END:
+# 前端工程化
 
 - 随着项目规模的扩大，需求越来越复杂，开发人员的增多，对质量的要求更高，会引发一些问题
 

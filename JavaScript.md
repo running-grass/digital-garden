@@ -1,13 +1,7 @@
 是继承并扩展了部分[[ECMAScript]]规范的语言。各个浏览器在不同程度上实现了运行时。
 
 
-js中阻止事件的方法
----------------------------
-
-js中阻止事件的方法
-   :PROPERTIES:
-   :CUSTOM_ID: js中阻止事件的方法
-   :END:
+# js中阻止事件的方法
 
 - preventDefault 阻止事件的浏览器默认行为
 - return false  阻止冒泡+默认行为
@@ -15,13 +9,7 @@ js中阻止事件的方法
 - stopPropagation 阻止事件的冒泡，但是不阻止默认行为
 
 
-js中的模块化方案
----------------------------
-
-js中的模块化方案
-   :PROPERTIES:
-   :CUSTOM_ID: js中的模块化方案
-   :END:
+# js中的模块化方案
 
 - [[Web前端]]
 - 由于历史原因，同时存在很多种非官方的模块化方案
@@ -35,12 +23,6 @@ js中的模块化方案
 
 
 实现数组去重
----------------------------
-
-实现数组去重
-   :PROPERTIES:
-   :CUSTOM_ID: 实现数组去重
-   :END:
 
 - 使用sort排序后，reduce判断，使用push
 - 双层for循环
@@ -51,13 +33,7 @@ js中的模块化方案
 - 使用Set数据类型
 
 
-js更改光标位置
----------------------------
-
-js更改光标位置
-   :PROPERTIES:
-   :CUSTOM_ID: js更改光标位置
-   :END:
+# js更改光标位置
 
 - 光标位置的获取
 
@@ -71,18 +47,7 @@ js更改光标位置
 
 
 
-
-
-
-
-
-### apply bind call的区别
----------------------------
-
-apply bind call的区别
-   :PROPERTIES:
-   :CUSTOM_ID: apply-bind-call的区别
-   :END:
+# apply bind call的区别
 
 - fun.apply(thisArg,[argsArray])
 - fun.bind(thisArg,arg1,arg2...)
@@ -95,7 +60,6 @@ bind和其它的区别是，返回绑定this后的新函数，它允许提供部
 
 
 作用域链
----------------------------
 
 作用域链
    :PROPERTIES:
@@ -115,16 +79,7 @@ bind和其它的区别是，返回绑定this后的新函数，它允许提供部
 
 
 new操作符的执行过程
----------------------------
-
-new操作符的执行过程
-   :PROPERTIES:
-   :CUSTOM_ID: new操作符的执行过程
-   :END:
-
 - [[Web前端]][[js]]
-
-- 
 
   1. 创建一个空对象
 
@@ -145,25 +100,16 @@ new操作符的执行过程
   5. 返回新对象或者指定的返回值（非基本数据类型）
 
 
-npm更换淘宝镜像源
----------------------------
+# npm更换镜像源
 
-npm更换淘宝镜像源
-   :PROPERTIES:
-   :CUSTOM_ID: npm更换淘宝镜像源
-   :END:
-npm config set registry https://registry.npmjs.org
+## 使用 `nrm`
 
-npm config set registry https://registry.npm.taobao.org * 切换回默认的
+1. 安装 nrm， npm i -g nrm
+2. nrm test， 测试各个镜像的速度
+3. nrm use aliyun , 选择一个延迟低的
 
 
-Promise
----------------------------
-
-Promise
-   :PROPERTIES:
-   :CUSTOM_ID: promise
-   :END:
+# Promise
 
 - 异步编程的一种解决方案，比回调函数和事件机制要优雅一些
 - 本质上是一个容器，封装了一个异步事件。
@@ -215,20 +161,13 @@ Promise
   - 在pending状态时，无法查看具体的执行状态
 
 
-Iterator和stream的区别
----------------------------
-
-Iterator和stream的区别
-   :PROPERTIES:
-   :CUSTOM_ID: iterator和stream的区别
-   :END:
+# Iterator和stream的区别
 
 - iterator的作用的用来遍历，单向遍历
 - 而stream的区别是提供了相关计算操作的高级iterator
 
 
-链式调用
----------------------------
+# 链式调用
 
 链式调用
    :PROPERTIES:
@@ -244,30 +183,18 @@ Iterator和stream的区别
 
 
 
-stream和transducers的关系
----------------------------
+# stream和transducers的关系
 
-stream和transducers的关系
-   :PROPERTIES:
-   :CUSTOM_ID: stream和transducers的关系
-   :END:
 
-- [[stream]] [[Transducers]]
-
-[[Transducers]]会把用到的函数组合进行复用，而[[stream]]只是在利用小函数进行[[链式调用]]
-+ [[Transducers]]和[[Stream]]都可以完成类似的功能和效果 *
-对数组只遍历一遍 * [[Stream]]没有办法对一段逻辑过程进行复用。
+Transducers会把用到的函数组合进行复用，而stream只是在利用小函数进行链式调用
+- Transducers和Stream都可以完成类似的功能和效果 *
+对数组只遍历一遍 
+- Stream没有办法对一段逻辑过程进行复用。
 
 
 
 
-JavaScript与有限状态机
----------------------------
-
-JavaScript与有限状态机
-   :PROPERTIES:
-   :CUSTOM_ID: javascript与有限状态机
-   :END:
+# JavaScript与有限状态机
 
 - [[有限状态机]]是一个有用的模型
 - 对应的是面向对象设计模式汇总的state模式
@@ -318,14 +245,7 @@ JavaScript与有限状态机
 
 
 
-原型链的原理
----------------------------
-
-原型链的原理
-   :PROPERTIES:
-   :CUSTOM_ID: 原型链的原理
-   :END:
-
+# 原型链的原理
 - 原型主要是为了解决对象的属性共享问题
 
 每个对象都会有一个原型对象，访问一个对象的某一属性的时候，会先在自身的props中查找，如果找不到，会去查找其原型对象的props
