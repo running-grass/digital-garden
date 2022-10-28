@@ -1,11 +1,4 @@
-实现0/5像素边框
----------------------------
-
-实现0.5像素边框
-   :PROPERTIES:
-   :CUSTOM_ID: 实现0.5像素边框
-   :END:
-
+# 实现0/5像素边框
 - 最简单方案
 
   - ```css
@@ -53,45 +46,25 @@ overflow: hidden;
 
 
 
-移动端自适应样式
----------------------------
+# 移动端自适应样式
 
 移动端自适应样式
-   :PROPERTIES:
-   :CUSTOM_ID: 移动端自适应样式
-   :END:
-
 - 媒体查询
-
   - 针对不同的屏幕宽度，采用不同的样式，维护成本高
-
 - Flex弹性布局
-
   - 设置viewport的值为固定值
   - 高度写死
   - 宽度自适应
   - 元素单位为px
-
 - viewport缩放+rem
-
   - 根据rem将页面放大dpr倍, 然后viewport设置为1/dpr.
-
 - rem布局
-
   - viewport固定
   - 使用js动态设置document根元素的fontsize
 
 
 
-CSS单位
----------------------------
-* #+tags: 前端，CSS
-
-CSS单位
-:PROPERTIES:
-:id: css单位
-   :CUSTOM_ID: css单位
-:END:
+# CSS单位
 
 - 绝对长度单位
 
@@ -116,7 +89,7 @@ CSS单位
 
 
 
-CSS函数
+# CSS函数
 ---------------------------
 
 CSS函数
@@ -199,13 +172,7 @@ CSS函数
         - ```css
 
 
-css实现水平垂直居中
----------------------------
-
-css实现水平垂直居中
-   :PROPERTIES:
-   :CUSTOM_ID: css实现水平垂直居中
-   :END:
+# css实现水平垂直居中
 
 - 水平居中
 - 垂直居中
@@ -255,3 +222,7 @@ BEM规范
   - 单元化
 
 
+
+# css框架
+- [[Tailwind css]] 原子化类的方案
+- Emotion css in js的首选
