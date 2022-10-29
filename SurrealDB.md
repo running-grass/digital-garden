@@ -6,6 +6,7 @@
 - recotd(tableName) 记录引用类型，指向某一张表
 - object 对象类型
 - string 
+- number 
 - 
 # 目前支持的客户端
 - wasm
