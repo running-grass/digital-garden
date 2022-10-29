@@ -110,4 +110,4 @@ Vue超好玩的新特性：在CSS中使用JS变量
 新版本中已经不推荐使用Vuex了，改为使用Pinia来作为状态管理库
 
 ## Pinia
-非常扁平的结构，和Vuex相比 去掉了Mutations，
+非常扁平的结构，和Vuex相比 去掉了Mutations， store为单实例。
