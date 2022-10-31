@@ -1,5 +1,12 @@
 是继承并扩展了部分[[ECMAScript]]规范的语言。各个浏览器在不同程度上实现了运行时。
 
+# 运行时
+
+- 各个浏览器
+- nodejs
+- deno
+- [bun](https://bun.sh/) 高性能的运行时，基于webkit和jscore
+
 # 相关工具
 - npm-run-all 串行或者并行的运行多个npm脚本
 - nrm 切换npm镜像，并可以检测各个镜像源的速度，在国内非常实用。
