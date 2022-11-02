@@ -25,3 +25,7 @@ surreal start -- file:/tmp/surrealdb
 - deno
 - Rust
 - python
+
+1. `$auth` taken from the `ID` field in the JWT (is the record id of the logged in user). Therefore `$auth.name.first` would be the user's name... 
+2. `$scope` is the name of the scope (account or contact or something) 
+3. `$token` is the JWT claims (an object)
