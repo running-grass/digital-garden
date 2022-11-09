@@ -22,3 +22,12 @@
 2. nrm test， 测试各个镜像的速度
 3. nrm use aliyun , 选择一个延迟低的
 
+
+# 添加git仓库
+
+```bash
+npm install git+ssh://git@github.com:npm/cli.git#v1.0.27
+npm install git+ssh://git@github.com:npm/cli#semver:^5.0  
+npm install git+https://isaacs@github.com/npm/cli.git
+npm install git://github.com/npm/cli.git#v1.0.27
+```
