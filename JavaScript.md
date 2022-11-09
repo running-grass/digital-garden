@@ -248,7 +248,7 @@ Transducers会把用到的函数组合进行复用，而stream只是在利用小
 
 - 相关[[js类库]]
 
-  - [[https://github.com/jakesgordon/javascript-state-machine][javascript-state-machine]]
+  - https://github.com/jakesgordon/javascript-state-machine][javascript-state-machine
 
 
 
