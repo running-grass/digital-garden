@@ -7,11 +7,7 @@
 - deno
 - [bun](https://bun.sh/) 高性能的运行时，基于webkit和jscore
 
-# 相关工具
-- npm-run-all 串行或者并行的运行多个npm脚本
-- nrm 切换npm镜像，并可以检测各个镜像源的速度，在国内非常实用。
-- pnpm 解决npm包版本冲突，node_modules.黑洞的解决方案
-- 
+
 
 # js中阻止事件的方法
 
@@ -111,14 +107,6 @@ new操作符的执行过程
 
   5. 返回新对象或者指定的返回值（非基本数据类型）
 
-
-# npm更换镜像源
-
-## 使用 `nrm`
-
-1. 安装 nrm， npm i -g nrm
-2. nrm test， 测试各个镜像的速度
-3. nrm use aliyun , 选择一个延迟低的
 
 
 # Promise
