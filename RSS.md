@@ -12,3 +12,13 @@
 - [中文独立博客列表](https://feeds.pub/cn-indie)
 - [中文博客导航站](https://zhblogs.ohyee.cc/?)
 - 
+
+# 微信公众号订阅
+
+## 使用20次幂
+1. 注册登录 [20次幂](https://www.cimidata.com/), 搜索要订阅的公众号
+2. 点进公众号详情，会在 URL 上看到一个 `bid` 
+3. 订阅  `https://rsshub.app/wechat/ershicimi/{bid}`
+
+## 其余方式
+见 [RSSHub](https://docs.rsshub.app/new-media.html#wei-xin) 
