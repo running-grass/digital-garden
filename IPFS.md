@@ -18,7 +18,10 @@
 
 ## pin服务
 
+### 商业服务
+
 - [Web3 Storage](https://web3.storage/) 5G以内免费，每GB 0.7元
 - [Filebase](https://filebase.com/)  5G 免费空间，平均每GB 0.04元
 - [Pinata](https://www.pinata.cloud/) 1G免费，每GB 2.8元
+- [Estuary](https://estuary.tech/)  目前测试中，可以自托管
 - 
