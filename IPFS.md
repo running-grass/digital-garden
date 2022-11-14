@@ -28,5 +28,17 @@
 ## IPFS-Cluster
 
 ### 开始启动
-1 . 下载docker-composer 文件
+1.  下载docker-composer 文件
 https://raw.githubusercontent.com/ipfs-cluster/ipfs-cluster/master/docker-compose.yml
+
+ipfs://bafybeihu4mucax5knybkctfpbzxlmitmins2qnesi47fvqfwac6gk3vhxm/
+2. 下载ipfs-cluster-ctl https://dist.ipfs.io/#ipfs-cluster-ctl
+2. 把一个32位秘钥，进行16进制编码。
+3. 启动集群
+```
+CLUSTER_SECRET=${16进制编码的秘钥} docker-compose up
+```
+4. 查看是否成功
+```
+ipfs-cluster-ctl id
+```
