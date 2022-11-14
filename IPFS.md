@@ -24,4 +24,9 @@
 - [Filebase](https://filebase.com/)  5G 免费空间，平均每GB 0.04元
 - [Pinata](https://www.pinata.cloud/) 1G免费，每GB 2.8元
 - [Estuary](https://estuary.tech/)  目前测试中，可以自托管
-- 
+
+## IPFS-Cluster
+
+### 开始启动
+1 . 下载docker-composer 文件
+https://raw.githubusercontent.com/ipfs-cluster/ipfs-cluster/master/docker-compose.yml
