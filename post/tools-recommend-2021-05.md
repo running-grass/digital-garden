@@ -109,22 +109,22 @@ date: 2021-05-17
 开源的图书管理系统，借助插件可以完成更多的事情。
 
 
-### VirtuxBox {#virtuxbox}
+### VirtuxBox
 
 开源的虚拟机软件
 
 
-### Wakatime {#wakatime}
+### Wakatime 
 
 统计开发人员的时间消耗，例如编辑器比例、编程语言的比例等
 
 
-### VS Code {#vs-code}
+### VS Code
 
 开源的IDE，不多说
 
 
-### RescueTime {#rescuetime}
+### RescueTime
 
 统计设备的各个软件的使用时间。
 
@@ -310,12 +310,11 @@ bitwarden的网页密码填充插件
 玩PT圈子的必备工具，一个页面管理众多PT站点
 
 
-### WakaTime {#wakatime}
+### WakaTime 
 
 用来记录chrome在开发中的时间花费
 
-
-### ResuceTime {#resucetime}
+### ResuceTime
 
 用来记录页面浏览中的时间花费类别
 
@@ -393,37 +392,37 @@ i-search结果的统计
 显示行号
 
 
-### wakatime-mode {#wakatime-mode}
+### wakatime-mode
 
 wakatime的emacs插件
 
 
-### keyfreq {#keyfreq}
+### keyfreq
 
 记录所有的按键频率
 
 
-### alert {#alert}
+### alert
 
 桌面级通知
 
 
-### ox-hugo {#ox-hugo}
+### ox-hugo
 
 把org导出为markdown
 
 
-### editorconfig {#editorconfig}
+### editorconfig
 
 集成.editorconfig
 
 
-### lsp-mode {#lsp-mode}
+### lsp-mode
 
 lsp的eamcs前端
 
 
-### expand-region {#expand-region}
+### expand-region 
 
 代码块的快速选择
 
