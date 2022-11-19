@@ -7,6 +7,12 @@ action 市场 https://github.com/marketplace?query=cache
 [Cache](https://github.com/marketplace/actions/cache)
 [Checkout](https://github.com/actions/checkout)
 
+### 手动触发
+在对应的action文件中增加
+```yml
+on:
+  workflow_dispatch: {}
+```
 ### 小技巧
 - 使用checkout可以检出子仓库
 - 如果要操作github上的其它仓库，需要在checkout 中指定自定义的pat，然后在其他的step中可以使用push
