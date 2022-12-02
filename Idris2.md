@@ -47,7 +47,7 @@ Idris是一个纯函数式的通用编程语言
 - [Agda vs. Coq vs. Idris](https://whatisrt.github.io/dependent-types/2020/02/18/agda-vs-coq-vs-idris.html)  几个类haskell语言的对比
 - [Idris2 Documentation Browser](https://idris2docs.sinyax.net/) 便于搜索Idris2 的文档
 - [quickdocs](https://idris2-quickdocs.surge.sh/) 更全的一个关于Idris2 的文档，基于pack-db进行聚合
-
+- [Rhone Js](https://github.com/stefan-hoeck/idris2-rhone-js)  单页面MVC框架，类比 [[Vue]] 和 [[PureScript]] 中的 Halogen，但是其不使用VDom，而是直接操作真实dom
 
 ## 杂项
 1. 调用命令行命令  System.run 
