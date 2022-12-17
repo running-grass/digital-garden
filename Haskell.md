@@ -19,7 +19,7 @@
 
 * [Real World Haskell 中文版](http://cnhaskell.com/) - 真实世界中的Haskell
 * [Haskell趣学指南](https://flaneur2020.github.io/lyah/) - Haskell编程语言的入门指南
-* 【
+* [Learn Haskell by building a blog generator](https://lhbg-book.link/) 一个Haskell实战课程
 
 ## 文章
 
