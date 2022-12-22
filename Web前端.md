@@ -528,11 +528,11 @@ JAMStack（JAM 代表 JavaScript，API 和 Markup）是一种使用[[SSG]] 技�
     - 语义不清晰
     - 对于精细化的[[跨域]]控制无能为力
 
-- [[IFrame]]+=[[document.domain]]= (仅适用同主域名) #解决方案
+- IFrame+=document.domain= (仅适用同主域名) #解决方案
 
   - 原理
 
-    - [[document.domain]]可以把值设置为当前域的父域
+    - document.domain可以把值设置为当前域的父域
 
   - 实现
 
