@@ -27,3 +27,4 @@ Tauri RUST生态下的GUI开发工具，类似 Electron
 [Axum.教程](https://programatik29.github.io/axum-tutorial/#/)
 [Rust 圣经](https://course.rs/) 
 [使用Rust构建一个操作系统](https://os.phil-opp.com/zh-CN/)
+[rust学习资源列表](https://github.com/ctjhoa/rust-learning)
