@@ -27,3 +27,4 @@ Tauri RUST生态下的GUI开发工具，类似 Electron
 [Axum.教程](https://programatik29.github.io/axum-tutorial/#/)
 [Rust 圣经](https://course.rs/) 
 [rust学习资源列表](https://github.com/ctjhoa/rust-learning)
+[Let's build a browser engine!](http://limpet.net/mbrubeck/2014/08/08/toy-layout-engine-1.html) 使用Rust构建一个浏览器引擎
