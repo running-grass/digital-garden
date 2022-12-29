@@ -9,11 +9,107 @@
 ### 缺点
 1. 难于阅读和维护
 2. 
-## 定义方式
-### 使用方式
+
+## 声明式宏
+最简单也最常见的宏。例如println!,panic!等
+### 声明
+```rust
+#[macro_export] 
+macro_rules! vec { 
+	( $( $x:expr ),* ) => { 
+		{ 
+			let mut temp_vec = Vec::new(); 
+			$( temp_vec.push($x); )* 
+			temp_vec 
+		} 
+	}; 
+}
 ```
-println!("{}, {}!", "hello", "world");
+
+### 使用
+```rust
+vec![1, 2, 3];
 ```
+
+### 解释
+1. 类似于一个可以展开的match语句块。
+2. `$( $x:expr ),*` 为类似正则的宏模式
+3. `=>` 后面的语句块为匹配成功后的展开代码
+4. `#[macro_export]` 为导出声明式宏
+## derive过程式宏
+详见 [自定义 derive 过程宏](https://course.rs/advance/macro.html#%E8%87%AA%E5%AE%9A%E4%B9%89-derive-%E8%BF%87%E7%A8%8B%E5%AE%8F)
+### 声明
+```rust
+#[proc_macro_derive(HelloMacro)] 
+pub fn hello_macro_derive(input: TokenStream) -> TokenStream { 
+	// 基于 input 构建 AST 语法树 
+	let ast = syn::parse(input).unwrap(); 
+	
+	// 构建特征实现代码 
+	impl_hello_macro(&ast) 
+}
+
+
+#![allow(unused)]
+fn impl_hello_macro(ast: &syn::DeriveInput) -> TokenStream {
+    let name = &ast.ident;
+    let gen = quote! {
+        impl HelloMacro for #name {
+            fn hello_macro() {
+                println!("Hello, Macro! My name is {}!", stringify!(#name));
+            }
+        }
+    };
+    gen.into()
+}
+
+```
+
+### 使用
+```rust
+#[derive(HelloMacro)] 
+struct Sunfei; 
+
+#[derive(HelloMacro)] 
+struct Sunface;
+```
+### 解释
+1. 目前只能在单独的包中定义过程宏
+2. 宏所在的包名自然也有要求，必须以 `derive` 为后缀，对于 `hello_macro` 宏而言，包名就应该是 `hello_macro_derive`
+3. derive 宏输出的代码并不会替换之前的代码，而是追加
+## 类属性宏(Attribute-like macros)
+
+### 声明
+```rust
+#[proc_macro_attribute] 
+pub fn route(attr: TokenStream, item: TokenStream) -> TokenStream {
+}
+```
+
+### 使用
+```rust
+#[route(GET, "/")] 
+fn index() {
+}
+```
+
+### 解释
+1. 宏定义有两个参数，第一个为使用时的宏参数，Get和"/"，第二个参数为宏标注的项（index函数）
+2. 单独创建一个包，类型是 `proc-macro`，接着实现一个函数用于生成想要的代码。
+
+## 类函数宏(Function-like macros)
+### 声明
+```rust
+#[proc_macro] 
+pub fn sql(input: TokenStream) -> TokenStream {
+}
+```
+### 使用
+```rust
+let sql = sql!(SELECT * FROM posts WHERE id=1);
+```
+### 解释
+1. 其与声明式宏比较像，区别在于声明式宏更简单一些，它只能进行模式匹配，而过程宏可以对输入串进行解析校验等操作。
 
 ## 生态
 ### web开发领域
