@@ -115,3 +115,5 @@ overflow: hidden;
 
 # 选择器
 ## 父选择器
+:has()
+
