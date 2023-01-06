@@ -13,7 +13,7 @@ project
 	- request
 	- plz
 - 类post http 请求客户端
-	- restclient
+	- [restclient](https://github.com/pashky/restclient.el)
 	- [verb](https://github.com/federicotdn/verb) 在Org模式中使用
 	- walkman 
 	- http
