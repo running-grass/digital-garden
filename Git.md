@@ -20,3 +20,9 @@
 ```bash
 git log --all --full-history -- <path-to-file>
 ```
+
+# 其它实现
+
+## js实现
+- [isomorphic-git](https://isomorphic-git.org/) 可以在nodejs和浏览器中使用git 
+- 
