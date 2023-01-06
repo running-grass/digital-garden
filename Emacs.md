@@ -14,7 +14,7 @@ project
 	- plz
 - 类post http 请求客户端
 	- restclient
-	- verb
+	- [verb](https://github.com/federicotdn/verb) 在Org模式中使用
 	- walkman 
 	- http
 	- httprepl
