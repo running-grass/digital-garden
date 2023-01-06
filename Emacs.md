@@ -9,7 +9,14 @@ project
 -   `stable-melpa` 依据源码的 Tag （Git）升级，数量比 `melpa` 少，因为很多包作者根本不打 Tag
 -   `org` 仅仅为了 `org-plus-contrib` 这一个包，org 重度用户使用
 
-- http客户端
+- http客户端库
 	- request
 	- plz
+- 类post http 请求客户端
+	- restclient
+	- verb
+	- walkman 
+	- http
+	- httprepl
+
 - 
