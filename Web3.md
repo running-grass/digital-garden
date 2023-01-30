@@ -26,4 +26,10 @@
 -   hardhat：最流行的智能合约开发框架，备选是 truffle。 编译、部署、单元测试、启动本地节点
 -   open zeppelin：最流行的智能合约库。
 
-  
+# 学习资源
+- https://wtf.academy/ 学习Solidity语言的课程
+- [登链社区](https://learnblockchain.cn/) ，包含几份中文文档
+- [崔棉大师的B站系列课](https://space.bilibili.com/286084162/channel/series)
+- [Solidity中文文档](https://solidity-cn.readthedocs.io/zh/develop/abi-spec.html) 专业名词会有对应的英文标注
+- 
+- 
