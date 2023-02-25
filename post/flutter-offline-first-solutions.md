@@ -11,15 +11,15 @@ tags:
   - Realm
 ---
 
-本文调研了10余种客户端数据库方案。用于在Flutter中支持离线优先的数据库。
+本文调研了10余种客户端数据库方案。用于在[[Flutter]]中支持离线优先的数据库。
 <!--more-->
 # 背景
-之前用rxdb做了一个简单的web应用。应用数据存在在浏览器端，可以通过在服务器上面couchdb服务来进行数据同步。最近想要把这个web应用从purescript架构重构为flutter架构。但是flutter是不支持rxdb的，所以需要找一个类似的解决方案，在flutter框架下支持android、macos。
+之前用rxdb做了一个简单的web应用。应用数据存在在浏览器端，可以通过在服务器上面couchdb服务来进行数据同步。最近想要把这个web应用从purescript架构重构为[[flutter]]架构。但是[[flutter]]是不支持rxdb的，所以需要找一个类似的解决方案，在[[flutter]]框架下支持android、macos。
 
 需要的特性有：
 1. 支持android、macos，最好也支持ios，web，windows
 2. 支持离线优先、无感切换，当无网络的时候使用存储在客户端的数据库，网络恢复时自动把数据同步到服务端。
-3. 支持flutter的sdk
+3. 支持[[flutter]]的sdk
 4. 最好可以不需要自己搭建服务器
 
 # 方案
@@ -57,7 +57,7 @@ google自己的产品，是一个no-sql数据库
 支持离线优先，但是只支持js sdk
 
 ## sporran
-flutter的一个库，但是只支持web平台
+[[flutter]]的一个库，但是只支持web平台
 
 ## Couchdb+Wilt
 基于网络api的，不支持离线
@@ -67,12 +67,12 @@ flutter的一个库，但是只支持web平台
 
 
 ## Couchbase 
-在flutter中有两个库可以提供支持，不是官方的支撑，还不太成熟
+在[[flutter]]中有两个库可以提供支持，不是官方的支撑，还不太成熟
 需要一个同步网关，自建后端
 
 ## Realm
 realm目前在前端平台的支持很广，同时也可以使用Mongodb Realm Sync作为同步服务器。
-不过可惜的是，flutter还处于alpha版本（截止2021年）
+不过可惜的是，[[flutter]]还处于alpha版本（截止2021年）
 
 # 结论
 除去自己动手同步sqlite之外现成的方案只有Realm，couchbase，firestore三种了，firestore因为网络问题可以先不用，couchbase后期的维护不太可靠，只能把希望寄托于realm和mongodb了。
