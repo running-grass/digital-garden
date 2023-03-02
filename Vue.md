@@ -1,7 +1,8 @@
 前端框架， 新版的vue3已经支持 [[TypeScript]]
 
-vue的双向绑定
----------------------------
+## 相关技巧
+### vue的双向绑定
+
 * [[Web前端]]，[[面试题]]，[[Vue]]
 + 面试回答
 :PROPERTIES:
@@ -28,8 +29,7 @@ vue的双向绑定
 
 
 
-Vue组件通信方式
----------------------------
+### Vue组件通信方式
 
 Vue组件通信方式
    :PROPERTIES:
@@ -50,8 +50,7 @@ Vue组件通信方式
 
 
 
-Vue超好玩的新特性：在CSS中使用JS变量
----------------------------
+### Vue超好玩的新特性：在CSS中使用JS变量
 * #+tags: 前端，Vue，CSS
 
 Vue超好玩的新特性：在CSS中使用JS变量
@@ -87,8 +86,7 @@ Vue超好玩的新特性：在CSS中使用JS变量
 
 
 
-如何理解虚拟dom
----------------------------
+### 如何理解虚拟dom
 
 如何理解虚拟dom
    :PROPERTIES:
@@ -106,8 +104,14 @@ Vue超好玩的新特性：在CSS中使用JS变量
   - 用JS模拟真实DOM节点把虚拟DOM转换成真实DOM插入页面中发生变化时，比较两棵树的差异，生成差异对象根据差异对象更新真实DOM
 
 
-# Vue3
+## Vue3
 新版本中已经不推荐使用Vuex了，改为使用Pinia来作为状态管理库
 
-## Pinia
+### 从vue2升级到Vue3
+
+1. 升级vue2到vue2.7
+2. 升级打包工具到vite
+3. https://v3-migration.vuejs.org/zh/migration-build 遵循升级构建脚本操作
+
+### Pinia
 非常扁平的结构，和Vuex相比 去掉了Mutations， store为单实例。
